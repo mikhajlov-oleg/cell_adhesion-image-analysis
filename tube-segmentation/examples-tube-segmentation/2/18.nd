@@ -1,0 +1,20 @@
+"NDInfoFile", Version 2.0
+"Description", 
+"StartTime1", 20220204 23:56:13
+"DoTimelapse", FALSE
+"NTimePoints", 1
+"DoStage", FALSE
+"DoWave", TRUE
+"NWavelengths", 3
+"WaveName1", "2_Trans BF"
+"WaveDoZ1", FALSE
+"WaveName2", "3_Spinning1_Cy3"
+"WaveDoZ2", TRUE
+"WaveName3", "3_Spinning1_GFP"
+"WaveDoZ3", TRUE
+"DoZSeries", TRUE
+"NZSteps", 11
+"ZStepSize", 0
+"WaveInFileName", TRUE
+"NEvents", 0
+"EndFile"
