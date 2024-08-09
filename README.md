@@ -14,10 +14,6 @@ Both segmentations (cells and integrin clusters) are quantified with ImageJ. The
 
 Indentification of "big" clusters.
 
-## Enrichment calculation script ##
-
-
-
 ## Distance from clusters to the border scripts ##
 
 Matlab code
