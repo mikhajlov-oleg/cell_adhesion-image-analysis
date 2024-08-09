@@ -1,6 +1,6 @@
 # This is the readme file #
 
-This repository contains image analysis scripts that were used in the "" paper. Each script has an associate folder with example images that can be used to test the script.
+This repository contains image analysis scripts that were used in the "Cell adhesion and spreading on fluid membranes through microtubules-dependent mechanotransduction" paper. Each script has an associate folder with example images that can be used to test the script.
 
 ## Script names (manual and automatic thresholdings) ##
 
