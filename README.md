@@ -2,7 +2,7 @@
 
 This repository contains image analysis scripts that were used in the "Cell adhesion and spreading on fluid membranes through microtubules-dependent mechanotransduction" paper. Each script has an associate folder with example images that can be used to test the script.
 
-## Script names (manual and automatic thresholdings) ##
+## Cluster detection with manual and automatic thresholdings ##
 
 This script takes a multi-channel image of cells adhered on supported lipid bilayers (SLBs) as in input. The following channels of the input image should be identified by the user: brightfield, integrin and SLB.
 
