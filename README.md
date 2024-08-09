@@ -15,7 +15,12 @@ Both segmentations (cells and integrin clusters) are quantified with ImageJ. The
 
 ## Tube detection script ##
 
-Indentification of "big" clusters.
+This script written in FIJI macro language takes a multi-channel image of cells adhered on supported lipid bilayers (SLBs) and ROIs of the segmented integrin clusters
+that are larger than the diffraction limit ("big_ROIs") as in input. 
+
+For each integrin cluster membrane tubes were identified using ImageJ's "Reslice" function on the SLB channel, which created cross-sections perpendicular to the SLB
+at the ROI of integrin clusters. These cross-sections were segmented using Renyi’s entropy thresholding to identify membrane tethers, defining a tube as any structure
+exceeding 1.5 µm in the z-dimension.
 
 ## Distance from clusters to the border ##
 
