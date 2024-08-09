@@ -4,10 +4,13 @@ This repository contains image analysis scripts that were used in the "Cell adhe
 
 ## Cluster detection with manual and automatic thresholdings ##
 
-This script takes a multi-channel image of cells adhered on supported lipid bilayers (SLBs) as in input. The following channels of the input image should be identified by the user: brightfield, integrin and SLB.
+These scripts written in FIJI macro language take a multi-channel image of cells adhered on supported lipid bilayers (SLBs) as in input. 
+The user is asked to assign the following channels from the input image: brightfield, integrin and SLB.
 
-The script provides two segmentations as an output. First, it asks the user to segment cells (manually) using a polygone tool in the brightfield channel in ImageJ. Second, for each segmented cell it detects clusters in the integrin channel. This segmentation is performed automatically by either setting up the threshold value or using the "Rényi Entropy" theshold algorithm. 
-
+Then the scripts provide two segmentations as an output. 
+First, the user is asked to manually segment cells using a polygone tool in the brightfield channel in ImageJ. 
+Second, for each segmented cell it detects clusters in the integrin channel. 
+This segmentation is performed automatically using the "Rényi Entropy" theshold algorithm or using a manually fixed theshold value (depending on the script). 
 Both segmentations (cells and integrin clusters) are quantified with ImageJ. The results are incrementied in the .csv file.
 
 ## Tube detection script ##
