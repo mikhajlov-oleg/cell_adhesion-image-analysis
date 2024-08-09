@@ -16,20 +16,12 @@ Indentification of "big" clusters.
 
 ## Distance from clusters to the border ##
 
-The main function is ***distance2edge.m***
-It computes the expected distance of uniformly distributed points (clusters) to the edge of a polygon (cell boundary). 
+This script calculates the distances from integrin clusters to the cell border were calculated as the shortest path from the cluster edge to the cell border. 
+For each cell, these distances were averaged using a weighted mean, accounting for the number of integrins in each cluster. 
+This weighted mean was normalized to a reference value representing the average distance expected if clusters were uniformly distributed throughout the cell. 
+To calculate this reference distance, the cell area was divided into a fine rectangular mesh. This mesh was used to simulate a uniform distribution of clusters, 
+and the average distance from these simulated clusters to the cell border was computed. 
+This mesh was iteratively refined until the error in the calculated distances fell below 1% in a self-convergence test.
 
-The following subroutines are called on by the main function:
-- averaged2edge.m
-- isInsidePolygon.m
-- shortestDistance.m
-
-You should save all the functions in the same folder (or on MATLAB's Path).
-
-To run the code, use the command
-
-d = distance2edge(x,y)
-
-where x, y are vectors with the x- and y-coordinates of the cell boundary (in the correct order, so that neighbouring points on the cell boundary appear as consecutive entries in the x, y vectors).
 
 
