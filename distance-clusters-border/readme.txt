@@ -1,4 +1,4 @@
-First, the .csv file with the cell contour coordinates is generated from cell files by the script.
+First, the .csv file with the cell contour coordinates is generated from cell files by the roi-polygon-coordinates.ijm script.
 
 The main function is ***distance2edge.m***
 It computes the expected distance of uniformly distributed points (clusters) to the edge of a polygon (cell boundary). 
