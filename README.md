@@ -1,6 +1,7 @@
 # This is the readme file #
 
-This repository contains image analysis scripts that were used in the "Cell adhesion and spreading on fluid membranes through microtubules-dependent mechanotransduction" paper. Each script has an associate folder with example images that can be used to test the script.
+This repository contains image analysis scripts that were used in the "Cell adhesion and spreading on fluid membranes through microtubules-dependent mechanotransduction" paper (DOI
+10.5281/zenodo.14567205). Each script has an associate folder with example images that can be used to test the script.
 
 ## Cluster detection with manual and automatic thresholdings ##
 
